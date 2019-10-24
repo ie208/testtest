@@ -26,4 +26,3 @@ class Test_Replaced(unittest.TestCase):
         self.assertEqual(replaced("aa", "a", "ab"), "abab")
         self.assertEqual(replaced("aa", "a", "bc"), "bcbc")
         self.assertEqual(replaced("aa", "a", "ba"), "baba")
-        self.assertEqual(replaced(True, False))
